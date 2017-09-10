@@ -6,12 +6,13 @@ namespace Assets.Scripts
 {
     public static class TaskManager
     {
+        private static object _lockObj = new object();
         private static bool shouldContinue;
-        private static List<Action> _queue;
+        private static Queue<Action> _queue;
 
         static TaskManager()
         {
-            _queue = new List<Action>();
+            _queue = new Queue<Action>();
         }
 
         public static IEnumerator StartCycle()
@@ -22,12 +23,15 @@ namespace Assets.Scripts
             {
                 if (_queue.Count > 0)
                 {
-                    foreach (Action action in _queue)
+                    lock(_lockObj)
                     {
-                        action();
-                    }
+                        foreach (Action action in _queue)
+                        {
+                            action();
+                        }
 
-                    _queue.Clear();
+                        _queue.Clear();
+                    }
                 }
 
                 yield return null;
@@ -41,7 +45,10 @@ namespace Assets.Scripts
 
         public static void Enqueue(Action action)
         {
-            _queue.Add(action);
+            lock(_lockObj)
+            {
+                _queue.Enqueue(action);
+            }
         }
     }
 }
