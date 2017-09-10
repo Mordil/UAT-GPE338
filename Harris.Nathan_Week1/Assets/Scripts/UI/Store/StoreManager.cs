@@ -1,4 +1,4 @@
-﻿using Assets.Scripts;
+﻿using Assets.Scripts.Models;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +8,9 @@ public class StoreManager : MonoBehaviour
 {
     public UnityEvent OnMakingRequest;
     public UnityEvent OnStoreIsReady;
-    
+
+    [SerializeField]
+    private GameObject _storeItemPrefab;
     [SerializeField]
     private GameObject _storeContentContainer;
     [SerializeField]
@@ -26,7 +28,7 @@ public class StoreManager : MonoBehaviour
         {
             foreach (GameObject item in transformedItems)
             {
-                item.transform.SetParent(_storeContentContainer.transform);
+                item.transform.SetParent(_storeContentContainer.transform, false);
                 _storeItems.Add(item);
             }
 
@@ -38,7 +40,7 @@ public class StoreManager : MonoBehaviour
             StoreItemFactory.OnTaskCompleted -= taskCompletedHandler;
         };
 
-        StoreItemFactory.TransformJsonToModel(json);
+        StoreItemFactory.TransformJsonToModel(json, _storeItemPrefab);
     }
 
     private IEnumerator MakeUrlRequest()
