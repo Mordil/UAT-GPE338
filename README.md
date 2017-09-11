@@ -5,13 +5,13 @@ Each week, new concepts were introduced that required application of new knowled
 
 For details on each week, see their corresponding documents.
 
-* [Week 1](./docs/Week1.md)
-    * [Coroutines](./docs/Week1.md#coroutines)
-    * [Delegates](./docs/Week1.md#delegates)
-    * [Lambda Expressions](./docs/Week1.md#lambda-expressions)
-    * [Generics and Templates](./docs/Week1.md#generics-and-templates)
-    * [Basic Multi-threading](./docs/Week1.md#basic-multi-threading)
-    * [Single Use Principle](./docs/Week1.md#single-use-principle)
+* [Week 1](./Docs/Week1.md)
+    * [Coroutines](./Docs/Week1.md#coroutines)
+    * [Delegates](./Docs/Week1.md#delegates)
+    * [Lambda Expressions](./Docs/Week1.md#lambda-expressions)
+    * [Generics and Templates](./Docs/Week1.md#generics-and-templates)
+    * [Basic Multi-threading](./Docs/Week1.md#basic-multi-threading)
+    * [Single Use Principle](./Docs/Week1.md#single-use-principle)
 * Week 2
     * Data Driven Design
         * JSON Serialization
