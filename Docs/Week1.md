@@ -1,5 +1,3 @@
-
-
 # UAT GPE338 Week 1
 
 [![Week 1 Demo](https://i.ytimg.com/vi/4-327CQCg0I/hqdefault.jpg)](https://youtu.be/4-327CQCg0I)

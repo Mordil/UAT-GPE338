@@ -12,13 +12,14 @@ For details on each week, see their corresponding documents.
     * [Generics and Templates](./Docs/Week1.md#generics-and-templates)
     * [Basic Multi-threading](./Docs/Week1.md#basic-multi-threading)
     * [Single Use Principle](./Docs/Week1.md#single-use-principle)
-* Week 2
-    * Data Driven Design
+* [Week 2](./Docs/Week2.md)
+    * [Data Driven Design](./Docs/Week2.md#data-driven-design)
         * JSON Serialization
-    * Dynamic Resources
-    * Namespaces
-    * Properties
-    * Interfaces
+    * [Dynamic Resources](./Docs/Week2.md#dynamic-resources)
+    * [Namespaces](./Docs/Week2.md#namespaces)
+    * [Properties](./Docs/Week2.md#properties)
+    * [Interfaces](./Docs/Week2.md#interfaces)
+    * [Object-Orientated Programming Principles](./Docs/Week2.md#oop-principles)
 * Week 3
     * Events (and Queues)
     * UnityEvents
