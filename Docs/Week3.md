@@ -1,5 +1,10 @@
 # UAT GPE338 Week 3
 
+> I have decided to refactor my [UAT Tanks (UAT-GAM205)](https://github.com/Mordil/UAT-GAM205) course project as this
+> course's "final" rather than write a new game project.
+
+> There won't be any more videos here on out that I've recorded of examples.
+
 ## Table of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
