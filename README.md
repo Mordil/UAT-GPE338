@@ -1,7 +1,15 @@
 # UAT-GPE338
 The Advanced Gameplay Programming concepts in Unity 3D from [University of Advancing Technology](http://www.uat.edu/).
 
-Each week, new concepts were introduced that required application of new knowledge to demonstrate underlying comprehension.
+Each week, new concepts were introduced that required drafting of "teachback" lessons to demonstrate comprehension of
+ that week's material.
+
+At the end of the course, there was a rubric of items that needed to be implemented in a game project.
+
+For the first week, I wrote a simple Unity project that wasn't really a game.
+
+I was planning on writing a small "Stock Trading" game for the course final - but then I decided to refactor a previous
+ course project: [UAT Tanks (UAT-GAM205)](https://github.com/Mordil/UAT-GAM205).
 
 For details on each week, see their corresponding documents.
 
@@ -20,13 +28,19 @@ For details on each week, see their corresponding documents.
     * [Properties](./Docs/Week2.md#properties)
     * [Interfaces](./Docs/Week2.md#interfaces)
     * [Object-Orientated Programming Principles](./Docs/Week2.md#oop-principles)
-* Week 3
-    * Events (and Queues)
-    * UnityEvents
-    * Object Pooling
-    * Dependency Injection
-    * LINQ
+* [Week 3](./Docs/Week3.md)
+    * [Events (and Queues)](./Docs/Week3.md#events-and-queues)
+    * [UnityEvents](./Docs/Week3.md#unityevents)
+    * [Object Pooling](./Docs/Week3.md#object-pooling)
+    * [Dependency Injection](./Docs/Week3.md#dependency-injection)
+    * [LINQ](./Docs/Week3.md#linq)
 * Week 4
+    * Unity Editor Scripts
+        * GUI
+        * Property Drawers
+    * Bitmasking (Enum Flags)
+    * Attributes
+    * ScriptableObjects
 * Week 5
     * Integration of concepts into single game project
 
