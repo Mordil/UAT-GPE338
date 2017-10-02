@@ -34,13 +34,13 @@ For details on each week, see their corresponding documents.
     * [Object Pooling](./Docs/Week3.md#object-pooling)
     * [Dependency Injection](./Docs/Week3.md#dependency-injection)
     * [LINQ](./Docs/Week3.md#linq)
-* Week 4
-    * Unity Editor Scripts
-        * GUI
-        * Property Drawers
-    * Bitmasking (Enum Flags)
-    * Attributes
-    * ScriptableObjects
+* [Week 4](./Docs/Week4.md)
+    * [Unity Editor Scripts](./Docs/Week4.md#unity-editor-scripts)
+        * [GUI](./Docs/Week4.md#gui)
+        * [Property Drawers](./Docs/Week4.md#property-drawers)
+    * [Bitmasking (Enum Flags)](./Docs/Week4.md#bitmasking)
+    * [Attributes](./Docs/Week4.md#attributes)
+    * [ScriptableObjects](./Docs/Week4.md#scriptableobjects)
 * Week 5
     * Integration of concepts into single game project
 
