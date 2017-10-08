@@ -41,7 +41,7 @@ For details on each week, see their corresponding documents.
     * [Bitmasking (Enum Flags)](./Docs/Week4.md#bitmasking)
     * [Attributes](./Docs/Week4.md#attributes)
     * [ScriptableObjects](./Docs/Week4.md#scriptableobjects)
-* Week 5
+* [Week 5](./Docs/Week5.md)
     * Integration of concepts into single game project
 
 # License
